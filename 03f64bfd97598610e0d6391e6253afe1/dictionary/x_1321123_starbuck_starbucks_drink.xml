@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="98f7cbb197998610e0d6391e6253af23" label="Starbucks drink" max_length="40" name="x_1321123_starbuck_starbucks_drink" type="collection">
+        <element label="Protein" max_length="40" name="protein" type="integer"/>
+        <element label="Carb" max_length="40" name="carb" type="integer"/>
+        <element label="Fiber" max_length="40" name="fiber" type="integer"/>
+        <element label="Fat" max_length="40" name="fat" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Image" max_length="40" name="image" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="100" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Calories" max_length="40" name="calories" type="integer"/>
+    </element>
+</database>

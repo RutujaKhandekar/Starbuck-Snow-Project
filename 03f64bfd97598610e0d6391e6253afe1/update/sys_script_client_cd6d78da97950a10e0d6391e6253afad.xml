@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Script_Practice</name>
+        <order/>
+        <script><![CDATA[if (g_form.isNewRecord()) {
+    var gr = "ServiceNow Incident";
+    g_form.setValue('caller_id', g_user.userID); //g_user.userID is an servicenow API whichi is used to fetch the current logged in user
+    g_form.setValue('short_description', 'Rutuja'); //g_form.setValue is used to set the value of any field
+    g_form.setValue('description', gr);
+	g_form.setMandatory('assigned_to',true);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 12:01:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd6d78da97950a10e0d6391e6253afad</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Script_Practice</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starbucks Management" source="x_1321123_starbuck">03f64bfd97598610e0d6391e6253afe1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks Management">03f64bfd97598610e0d6391e6253afe1</sys_scope>
+        <sys_update_name>sys_script_client_cd6d78da97950a10e0d6391e6253afad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 14:20:42</sys_updated_on>
+        <table/>
+        <type/>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">140b7c189000021087de3cfccdb0d6c3</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 09:08:03</sys_created_on>
+        <sys_id>1e4ccf7997998610e0d6391e6253af77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Starbucks Management" source="x_1321123_starbuck">03f64bfd97598610e0d6391e6253afe1</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 09:08:03</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

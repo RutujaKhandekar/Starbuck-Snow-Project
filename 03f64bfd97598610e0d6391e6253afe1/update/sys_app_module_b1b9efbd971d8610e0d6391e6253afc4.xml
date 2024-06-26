@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Starbucks Management">f308c33197998610e0d6391e6253afe0</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Barista</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>evaluation_parameter_result</name>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>starbucks_barista</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 11:21:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1b9efbd971d8610e0d6391e6253afc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Barista</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starbucks Management" source="x_1321123_starbuck">03f64bfd97598610e0d6391e6253afe1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks Management">03f64bfd97598610e0d6391e6253afe1</sys_scope>
+        <sys_update_name>sys_app_module_b1b9efbd971d8610e0d6391e6253afc4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 11:21:22</sys_updated_on>
+        <timeline_page/>
+        <title>Barista</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
